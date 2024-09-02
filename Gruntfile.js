@@ -109,5 +109,6 @@ module.exports = function(grunt) {
   grunt.registerTask('default', ['csslint', 'htmllint', 'eslint']);
 
   // Cleans out/ folder, copies files in place and vulcanizes index.html to out/.
-  grunt.registerTask('build', ['clean', 'copy', 'vulcanize', 'uglify']);
+//  grunt.registerTask('build', ['clean', 'copy', 'vulcanize', 'uglify']);
+  grunt.registerTask('build', ['clean', 'copy', 'vulcanize']);
 };
